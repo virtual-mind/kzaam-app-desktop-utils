@@ -14,7 +14,7 @@ class ScreenShareMainHook {
     /**
      * Create ScreenShareMainHook linked to jitsiMeetWindow.
      *
-     * @param {BrowserWindow} jitsiMeetWindow - BrowserWindow where jitsi-meet api is loaded.
+     * @param {BrowserWindow} jitsiMeetWindow - BrowserWindow where kzaam-app api is loaded.
      * @param {string} identity - Name of the application doing screen sharing, will be displayed in the
      * screen sharing tracker window text i.e. {identity} is sharing your screen.
      */

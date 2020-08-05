@@ -18,7 +18,7 @@ screenShareMinimize.addEventListener("click", function() {
 
 /**
  * When the user clicks the stop button, send a message that will eventually be processed by
- * {@link ScreenShareRenderHook} which will toggle the screen sharing session using the jitsi-meet api.
+ * {@link ScreenShareRenderHook} which will toggle the screen sharing session using the kzaam-app api.
  */
 screenShareStop.addEventListener("click", function() {
     ipcRenderer.send(SCREEN_SHARE_EVENTS_CHANNEL, {
